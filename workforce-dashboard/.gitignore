@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
+
+# Database (don't commit actual data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Agent storage (DON'T commit user data)
+storage/
+agent/storage/
+**/storage/device.json
+**/storage/local.db
+**/storage/activity_logs/
+**/storage/screenshots/
+
+# OS
+Thumbs.db
+.DS_Store
